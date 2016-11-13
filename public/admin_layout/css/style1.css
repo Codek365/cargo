@@ -1,0 +1,275 @@
+form {
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #555555;
+}
+input, select {
+    padding: 3px;
+}
+textarea {
+    width: 100%;
+}
+.form_label {
+    display: inline-block;
+    width: 120px;
+    padding: 3px;
+    font-style: italic;
+    vertical-align: middle;
+}
+.form_item {
+    display: inline-block;
+    padding: 3px;
+    vertical-align: middle;
+}
+.textbox {
+    width: 250px;
+    border: 1px solid silver;
+}
+.textbox:hover {
+    background: #EFEFEF;
+}
+.button {
+    padding: 3px 20px 3px 20px;
+    background-color: #A8D3FF;
+    border: 1px solid #51A8FF;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #FFCBB3;
+    border: 1px solid #FF702B;
+}
+.dropdownlist{
+    padding-right:15px;
+}
+.error_msg {
+    text-align: left;
+    font-style: italic;
+    color: black;
+    padding: 20px 5px 20px 60px;
+    border: 1px solid red;
+    background: pink url("img/warning.png") no-repeat 15px center;
+}
+.error_msg li{
+    list-style-type: none;
+    line-height:20px;
+    color:red;
+}
+.result_msg2 {
+    text-align: left;
+    font-style: italic;
+    color: black;
+    padding: 20px 5px 20px 60px;
+    border: 1px solid green;
+    background: #C1FFE0 url("../images/valid.png") no-repeat 15px center;
+}
+.list_table /* Bảng danh sách */ {
+    border-collapse: collapse;
+    width: 100%;
+}
+.list_th /* Dòng tiêu đề danh sách */ {
+    background-color: #E5E5E5;
+    font-weight: bold;
+    text-align: center;
+    color: #0080C0;
+    border: 1px solid silver;
+    padding: 3px;
+}
+.list_td /* Ô trong bảng danh sách */ {
+    border: 1px solid silver;
+    padding: 3px;
+    text-align: left;
+}
+.id_col /* Cột số thứ tự */ {
+    width: 40px;
+}
+.action_col /* Cột thao tác quản lý */ {
+    width: 50px;
+}
+.aligncenter {
+    text-align: center;
+}
+.alignright {
+    text-align: right;
+}
+#layout {
+    /* Thêm một chút CSS 3  */
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 1px 1px 8px silver;
+    -moz-box-shadow: 1px 1px 8px silver;
+    -webkit-box-shadow: 1px 1px 8px silver;
+}
+#top {
+    background-image: url("../images/top_bg.png");
+    line-height: 34px;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    /* Thêm một chút CSS 3  */
+    border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+}
+#menu {
+    background-color: #E5E5E5;
+    padding: 3px;
+    font-weight: bold;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+    border-bottom: 1px solid silver;
+}
+#menu a {
+    color: #555555;
+}
+#menu a:hover {
+    color: #D74600;
+}
+#main {
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+    border-bottom: 1px solid silver;
+}
+#bottom{
+    line-height: 30px;
+    height: 30px;
+    color: white;
+    background-color: #282828;
+    font-weight: bold;
+    text-align: center;
+    /* Thêm một chút CSS 3  */
+    border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+}
+/********* TRANG CHÍNH *********/
+.function_table {
+    border-spacing: 10px;
+    background-color: #F5F5F5;
+    border: 1px solid #D6D6D6;
+    /* Thêm một chút CSS 3 */
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+.function_item {
+    border: 1px solid #D6D6D6;
+    width: 120px;
+    height: 40px;
+    padding: 85px 5px 5px 5px;
+    text-align: center;
+    background-color: white;
+    /* Thêm một chút CSS 3 */
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.function_item a {
+    color: #555555;
+}
+.function_item:hover {
+    background-color: #FFDDFF;
+    border: 1px solid #FFAEFF;
+}
+.function_item:hover a{
+    color: black;
+    font-weight: bold;
+}
+.statistics_panel {
+    width: 300px;
+    text-align: left;
+    vertical-align: top;
+    line-height: 20px;
+}
+.user_add {
+    background: white url("../images/user_add.png") no-repeat center center;
+}
+.user_list {
+    background: white url("../images/user.png") no-repeat center center;
+}
+.cate_add {
+    background: white url("../images/category_add.png") no-repeat center center;
+}
+.cate_list {
+    background: white url("../images/category.png") no-repeat center center;
+}
+.role_add {
+    background: white url("../images/role_add.png") no-repeat center center;
+}
+.role_list {
+    background: white url("../images/role.png") no-repeat center center;
+}
+.permission{
+    background: white url("../images/permission.png") no-repeat center center;
+}
+.product_list{
+    background: white url("../images/product.png") no-repeat center center;
+}
+.supplier_list{
+    background: white url("../images/supplier.png") no-repeat center center;
+}
+/********* TRANG LOGIN *********/
+.login_img {
+    width: 200px;
+    height: 150px;
+    background: url("../images/login_lock.png") no-repeat center center;
+}
+/********* THANH PHÂN TRANG (THUẬT TOÁN PHÂN TRANG) *********/
+#page_nav_bar {
+    text-align: center;
+    margin-top: 10px;
+}
+#page_nav_bar span.current_page {
+    margin: 0px 2px 0px 2px;
+    padding: 2px 5px 2px 5px;
+    background-color: #0080C0;
+    color: white;
+    font-weight: bold;
+}
+#page_nav_bar a {
+    margin: 0px 2px 0px 2px;
+    padding: 1px 4px 1px 4px;
+    border: 1px solid gray;
+    color: #555555;
+}
+#page_nav_bar a:hover {
+    margin: 0px 2px 0px 2px;
+    padding: 1px 4px 1px 4px;
+    border: 1px solid red;
+    background-color: pink;
+    color: black;
+}
+img.avatar{
+    display: inline-block; 
+    width:100px;
+    height:100px;
+    border:1px solid #ccc;
+    padding:3px;
+}
+/* pagination */
+.pagination{
+    margin: 15px auto 0px;
+    display:inline-block;
+}
+.pagination a, .pagination strong{
+    padding:5px 10px;
+    background:#ffffff;
+    color:#428bca;
+    border-right:1px solid #dddddd;
+    border-top:1px solid #dddddd;
+    border-bottom:1px solid #dddddd;
+    display:block;
+    float:left;
+}
+.pagination a:first-child{
+    border-left:1px solid #dddddd;
+}
+.pagination strong{
+    background-color:#428bca;
+    color:#fff;
+}

@@ -1,0 +1,418 @@
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 32px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*== 1200px and beyond ===================================================
+========================================================================*/
+/* Large desktop */
+@media (min-width: 1200px) {
+  
+}
+/*== Up to 1200px =====================================================
+========================================================================*/
+/* Large desktop */
+@media (max-width: 1200px) {
+  #contact_map {
+    height: 376px;
+  }
+  .row-fluid {
+    margin-left: -20px;
+  }
+  .row-fluid [class*="itemSpan"],
+  .row-fluid [class*="span"] {
+    padding-left: 20px;
+  }
+  .fluid {
+    margin-left: -20px;
+  }
+  .locations .mod-custom {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .navigation ul.sf-menu > li {
+    margin-left: 26px;
+  }
+  .camera_wrap .camera_prev {
+    margin-left: 0;
+    left: auto;
+    right: 67px;
+  }
+  .camera_wrap .camera_next {
+    margin-left: 0;
+    left: auto;
+    right: 20px;
+  }
+  .who_we_are .fleft {
+    margin-bottom: 10px;
+  }
+}
+/*== Up to 980px ======================================================
+========================================================================*/
+/* Narrow desktop */
+@media (max-width: 979px) {
+  .thumbnails {
+    margin-left: -12px;
+  }
+  .thumbnails > li {
+    margin-left: 12px;
+  }
+  .locations .mod-custom {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .navigation ul.sf-menu > li {
+    margin-left: 10px;
+  }
+  .navigation ul.sf-menu > li.firstItem {
+    margin-left: 0px;
+  }
+  .blocks .item .item_img {
+    float: none;
+    width: auto;
+  }
+  .blocks .item_content {
+    float: none;
+    width: auto;
+    border: none;
+  }
+  .news .item_content {
+    padding-left: 75px;
+  }
+  .social li {
+    margin: 0 2px;
+  }
+  .social a {
+    width: 34px;
+    height: 34px;
+  }
+  .social a:before {
+    line-height: 36px;
+  }
+  .leadership .item_content {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .objectives .item_content {
+    padding-left: 70px;
+  }
+  /*footer*/
+  #back-top {
+    display: none !important;
+  }
+  .row-fluid {
+    margin-left: -12px;
+  }
+  .row-fluid [class*="itemSpan"],
+  .row-fluid [class*="span"] {
+    padding-left: 12px;
+  }
+  .fluid {
+    margin-left: -12px;
+  }
+}
+/*== Up to 980px and beyond 768px ======================================
+========================================================================*/
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  
+}
+/*== Up to 767px ======================================================
+========================================================================*/
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  body {
+    padding: 0;
+  }
+  body .row-container {
+    padding: 0 20px;
+  }
+  body #showcase-row .row-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .navigation ul.sf-menu {
+    padding-top: 0;
+  }
+  .locations .mod-custom {
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: 20px;
+  }
+  .hello {
+    margin-right: -20px;
+  }
+  .news .item_content {
+    min-height: 90px;
+    padding-bottom: 20px;
+  }
+  .leadership .item_img {
+    float: left;
+    margin-right: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .leadership .item_content {
+    height: 167px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .social {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .camera_wrap .camera_prev,
+  .camera_wrap .camera_next {
+    bottom: 20px;
+  }
+  #wrapper {
+    margin: 0;
+  }
+  #footer-wrapper {
+    height: auto;
+  }
+  #push {
+    display: none;
+  }
+  #logo {
+    text-align: center;
+  }
+  #logo a {
+    /*margin: 100px;*/
+    margin: 0;
+  }
+  .nav.menu.pull-right.nav-pills {
+    float: none;
+    text-align: center;
+  }
+  .nav.menu.pull-right.nav-pills li {
+    float: none;
+    display: inline-block;
+  }
+  .social {
+    text-align: left;
+  }
+  /*content*/
+  [class*="cols"] [class*="span"] {
+    width: 100%;
+  }
+  .item-image.blog-image {
+    float: none;
+    margin: 0 0 20px 0;
+  }
+  .row-fluid [class*="itemSpan"],
+  .row-fluid [class*="span"] {
+    display: block;
+    float: none;
+    margin-left: 0;
+    width: auto;
+  }
+  /*gallery*/
+  .page-gallery ul.gallery .gallery-grid {
+    width: 48.5%;
+    max-width: 48.5%;
+  }
+  .page-gallery ul.gallery .gallery-grid .view .item_img {
+    max-width: 100%;
+  }
+  .page-gallery ul.gallery .gallery-grid .view .item_img a {
+    display: block;
+  }
+  .img-full__left.span5 {
+    width: 50%;
+  }
+  /*contact*/
+  .contact_details .contact_details_item {
+    width: 30%;
+    float: left;
+  }
+  .page-gallery ul.gallery .gallery-grid .view {
+    margin: 0 auto;
+  }
+  .page-gallery ul.gallery .gallery-grid .view .item_img {
+    float: none;
+    margin: 0 !important;
+  }
+  /*Modules*/
+  /*search*/
+  .mod-search__aside .mod-search_searchword {
+    width: 50%;
+  }
+  /*login*/
+  .mod-login__aside .mod-login_username,
+  .mod-login__aside .mod-login_passwd {
+    width: 50%;
+  }
+  #back-top {
+    display: none !important;
+  }
+/*  .hid-icon{
+    display:none !important;
+  }
+  */
+}
+/*== Up to 640px ==================================================
+====================================================================*/
+@media (max-width: 640px) {
+  /*contact*/
+  .contact_details {
+    margin-bottom: 24px;
+  }
+  .contact_details .contact_details_item {
+    width: 100%;
+    float: none;
+  }
+  .layout-mode {
+    float: none;
+  }
+}
+/*== Up to 480px ==================================================
+====================================================================*/
+/* Landscape phones and down */
+@media (max-width: 479px) {
+  .who_we_are .fleft {
+    float: none;
+    margin: 0 0 20px 0;
+  }
+  .leadership .item_img {
+    float: none;
+    margin: 0;
+  }
+  .leadership .item_content {
+    height: auto;
+    width: 252px;
+    margin-bottom: 20px;
+  }
+  h1,
+  h2,
+  h3 {
+    font-size: 28px;
+  }
+  /*contact*/
+  .contact_form {
+    width: 100%;
+  }
+  /*registration*/
+  .page-registration form input,
+  .page-remind form input,
+  .page-reset form input,
+  .page-login form input,
+  .page-login form input,
+  .page-profile__edit form input,
+  .page-registration form select,
+  .page-remind form select,
+  .page-reset form select,
+  .page-login form select,
+  .page-login form select,
+  .page-profile__edit form select {
+    width: 100%;
+  }
+  .page-registration form label,
+  .page-remind form label,
+  .page-reset form label,
+  .page-login form label,
+  .page-login form label,
+  .page-profile__edit form label {
+    display: inline-block;
+  }
+  /* pagination */
+  .pagination ul li {
+    display: none;
+  }
+  .pagination ul li.pagination-prev,
+  .pagination ul li.pagination-next {
+    display: inline-block;
+  }
+  /*gallery*/
+  .page-gallery .item_img.img-intro {
+    float: none;
+    margin: 0 0 24px 0;
+  }
+  .page-gallery ul.gallery .gallery-item {
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+  }
+  .page-gallery ul.gallery .gallery-item .item_img {
+    float: none;
+    margin: 0 auto 24px !important;
+    max-width: 100%;
+  }
+  .page-gallery ul.gallery .gallery-item .item_img img {
+    width: 100%;
+  }
+  .page-gallery ul.gallery .gallery-item a.zoom {
+    display: block;
+  }
+  .img-full__left.span5 {
+    width: 100%;
+    margin-right: 0;
+  }
+  /*blog*/
+  .item_img {
+    float: none;
+    margin: 0 0 24px 0;
+    max-width: 100%;
+  }
+  /*archive*/
+  .page-archive_filters select {
+    display: block;
+    width: 100%;
+  }
+  /*contact*/
+  .contact_details .contact_details_item {
+    width: 100%;
+    float: none;
+  }
+  /*Modules*/
+  /*search*/
+  .mod-search__aside .mod-search_searchword {
+    width: 100%;
+  }
+  /*login*/
+  .mod-login__aside .mod-login_userdata {
+    width: 100%;
+    overflow: hidden;
+  }
+  .mod-login__aside .mod-login_username,
+  .mod-login__aside .mod-login_passwd {
+    width: 100%;
+  }
+  div.modal {
+    position: absolute;
+  }
+  #error input {
+    width: 200px;
+  }
+}
+/*== Up to 400px =====================================================
+========================================================================*/
+/* Portrait phones */
+@media (max-width: 400px) {
+  
+}
